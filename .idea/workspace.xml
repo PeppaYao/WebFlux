@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4dafeb9d-ff79-455e-9504-49396a77ad49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/WebFlux.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_test_3_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebFlux.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-01/demo-01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-01/src/main/java/com/bytedance/pojo/FilterOperatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-01/src/main/java/com/bytedance/pojo/FlatMapOperatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-01/src/main/java/com/bytedance/pojo/FluxDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-01/src/main/java/com/bytedance/pojo/MapOperatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-01/src/main/java/com/bytedance/pojo/StepVerifierDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-01/target/classes/com/bytedance/pojo/FilterOperatorDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-01/target/classes/com/bytedance/pojo/FlatMapOperatorDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-01/target/classes/com/bytedance/pojo/FluxDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-01/target/classes/com/bytedance/pojo/MapOperatorDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-01/target/classes/com/bytedance/pojo/StepVerifierDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1illH8sYDOg9LIgZP7Mr4rWWeKO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demoAopAnnotation" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="Application.FilterOperatorDemo">
+    <configuration name="FilterOperatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bytedance.pojo.FilterOperatorDemo" />
+      <module name="demo-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bytedance.pojo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlatMapOperatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bytedance.pojo.FlatMapOperatorDemo" />
+      <module name="demo-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bytedance.pojo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FluxDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bytedance.pojo.FluxDemo" />
+      <module name="demo-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bytedance.pojo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapOperatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bytedance.pojo.MapOperatorDemo" />
+      <module name="demo-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bytedance.pojo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StepVerifierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bytedance.pojo.StepVerifierDemo" />
+      <module name="demo-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bytedance.pojo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="User" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.bytedance.pojo.User" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bytedance.pojo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.User" />
+      <item itemvalue="Application.StepVerifierDemo" />
+      <item itemvalue="Application.FluxDemo" />
+      <item itemvalue="Application.MapOperatorDemo" />
+      <item itemvalue="Application.FlatMapOperatorDemo" />
+      <item itemvalue="Application.FilterOperatorDemo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FilterOperatorDemo" />
+        <item itemvalue="Application.FlatMapOperatorDemo" />
+        <item itemvalue="Application.MapOperatorDemo" />
+        <item itemvalue="Application.StepVerifierDemo" />
+        <item itemvalue="Application.FluxDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4dafeb9d-ff79-455e-9504-49396a77ad49" name="Default Changelist" comment="" />
+      <created>1602489968913</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602489968913</updated>
+      <workItem from="1602489970303" duration="1889000" />
+      <workItem from="1602491976221" duration="4803000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1602494360097">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1602494360097" />
+    <state x="629" y="135" key="#User" timestamp="1602492142411">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="629" y="135" key="#User/0.0.1920.1040@0.0.1920.1040" timestamp="1602492142411" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602493953863">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602493953863" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602492254462">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602492254462" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1602496554027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602496554027" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1602496554027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602496554027" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1602496554027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602496554027" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1602496554027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602496554027" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1602494628081">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602494628081" />
+    <state x="759" y="297" key="chooseDestDirectoryDialog" timestamp="1602493861494">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="759" y="297" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602493861494" />
+    <state x="334" y="180" key="new project wizard" timestamp="1602493940317">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1602493940317" />
+  </component>
+</project>
