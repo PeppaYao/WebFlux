@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FindBugsConfigurable">
+    <option name="make" value="true" />
+    <option name="effort" value="default" />
+    <option name="priority" value="Medium" />
+    <option name="excludeFilter" value="" />
+  </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
@@ -8,8 +14,12 @@
       <list>
         <option value="$PROJECT_DIR$/demo-01/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-02-User/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="adopt-openj9-11" project-jdk-type="JavaSDK" />
+  <component name="SuppressionsComponent">
+    <option name="suppComments" value="[]" />
+  </component>
 </project>
