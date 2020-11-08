@@ -8,9 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="demo-01" />
         <module name="demo-02-User" />
+        <module name="demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="demo" target="11" />
       <module name="demo-01" target="1.5" />
       <module name="demo-02-User" target="1.8" />
       <module name="WebFlux" target="1.5" />
@@ -18,6 +20,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
       <module name="demo-02-User" options="-parameters" />
     </option>
   </component>
