@@ -1,7 +1,9 @@
 package com.bytedance.config;
 
-import com.bytedance.domain.Student;
-import com.bytedance.repository.UserRepository;
+
+
+import com.bytedance.mapper.UserMapper;
+import com.bytedance.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -34,15 +36,15 @@ public class RouterFunctionConfig {
 
     @Bean
     @Autowired
-    public RouterFunction<ServerResponse> personFindAll(UserRepository userRepository){
+    public RouterFunction<ServerResponse> personFindAll(UserMapper userMapper){
 
-        return RouterFunctions.route(RequestPredicates.GET("/person/find/all"),
-                        request ->{
-                            //返回所有用户的对象
-                            Collection<Student>  users = userRepository.findAll();
-                            Flux<Student> userFlux = Flux.fromIterable(users);
-                            return ServerResponse.ok().body(userFlux, Student.class);
-                        }
-                );
+        return RouterFunctions.route(RequestPredicates.GET("/query/find/all"),
+                request ->{
+                    //返回所有用户的对象
+                    Collection<User>  users = userMapper.queryUserList();
+                    Flux<User> userFlux = Flux.fromIterable(users);
+                    return ServerResponse.ok().body(userFlux, User.class);
+                }
+        );
     }
 }

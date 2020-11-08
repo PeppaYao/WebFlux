@@ -1,7 +1,7 @@
 package com.bytedance.controller;
 
 
-import com.bytedance.domain.User;
+import com.bytedance.domain.Student;
 import com.bytedance.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;

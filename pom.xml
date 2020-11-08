@@ -9,9 +9,9 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>demo-01</module>
-        <module>TDD</module>
-
+        <module>demo-01-FLux</module>
+        <module>demo-03-TDD</module>
+        <module>demo-04-User</module>
     </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/io.projectreactor/reactor-core -->
